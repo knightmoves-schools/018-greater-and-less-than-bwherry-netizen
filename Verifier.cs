@@ -21,7 +21,7 @@ public class Verifier
     }
 
     
-    public int LegalSpeed(int speed){
+    public string LegalSpeed(int speed){
         if (speed <= 50) {
             return "legal speed";
         } else {
@@ -38,6 +38,7 @@ public class Verifier
         }
     }
 }
+
 
 
 
