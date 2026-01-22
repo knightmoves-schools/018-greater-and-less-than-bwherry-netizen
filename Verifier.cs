@@ -13,7 +13,7 @@ public class Verifier
 
     
     public string UnderAge(int age){
-        if(age < 18){
+        if (age < 18) {
             return "under age";
         } else {
             return "";
@@ -22,7 +22,7 @@ public class Verifier
 
     
     public int LegalSpeed(int speed){
-        if(speed <= 50){
+        if (speed <= 50) {
             return "legal speed";
         } else {
             return "";
@@ -30,12 +30,13 @@ public class Verifier
     }
 
     
-    public string IsGoldenYears(age){
-        if(age >= 65){
+    public string IsGoldenYears(int age){
+        if (age >= 65) {
             return "golden years";
         } else {
             return "";
         }
     }
 }
+
 
